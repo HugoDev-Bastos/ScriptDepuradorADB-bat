@@ -1,20 +1,21 @@
 @echo off
 
 :menu
-echo Comando do adb para Conectar via Rede Wi-fi o Celular para Depuracao no VScode.
+
+echo Comandos do ADB para Conectar remotamente o Android para Depuracao no VScode.
 echo.
 echo  **********************************
 echo  **                              ** 
 echo  **  CONECTE O CELULA NO USB     **
 echo  **  ATIVE A DEPURACAO NO MODO   **
-echo  **  DESENVOLVEDO NO ANDROID.    ** ### Comentario dos Comandos ###
+echo  **  DESENVOLVEDO NO ANDROID.    ** 
 echo  **                              ** 
-echo  **  1  Acessar Diretorio        ** # Primeiro abra o Diretorio na pasta do adb.
-echo  **  2  adb devices              ** # lista de dispositivos conectados.
-echo  **  3  adb disconnect           ** # Desconectar dispositivos conectados.
-echo  **  4  adb tcpip 5555           ** # Abri porta para uma Conexao.
-echo  **  5  adb connect IP:5555      ** # No [IP] Coloque o do seu Celular ex:192.168.0.195:5555.
-echo  **  6  exit                     ** # Digite "exit" para fechar o Script.
+echo  **  1  Acessar Diretorio        ** <== Primeiro abra o Diretorio na pasta do adb.
+echo  **  2  adb devices              ** <== lista de dispositivos conectados.
+echo  **  3  adb disconnect           ** <== Desconectar dispositivos conectados.
+echo  **  4  adb tcpip 5555           ** <== Abri porta para uma Conexao.
+echo  **  5  adb connect IP:5555      ** <== No [IP] Coloque o do seu Celular ex:192.168.0.195:5555.
+echo  **  6  exit                     ** <== Digite "exit" para fechar o Script.
 echo  **                              **
 echo  **********************************
 echo  ********  DEPURADOR ADB  ********* 
