@@ -2,16 +2,16 @@
 
 Este é um script desenvolvido para facilitar a depuração remota de dispositivos Android utilizando o Android Debug Bridge (ADB) via conexão Wi-Fi. O ADB é uma ferramenta de linha de comando que permite aos desenvolvedores interagir com dispositivos Android para depurar aplicativos e realizar várias outras tarefas de desenvolvimento.
 
-Funcionalidades
+### Funcionalidades
 Conexão Wi-Fi: O script automatiza o processo de conexão do dispositivo Android ao ADB via Wi-Fi, eliminando a necessidade de cabos USB.
 Facilidade de Uso: Com apenas um comando, o dispositivo é conectado ao ADB via rede Wi-Fi, simplificando o processo de depuração remota.
 Flexibilidade: O script pode ser personalizado para atender às necessidades específicas do ambiente de desenvolvimento, como configurar portas específicas ou automatizar tarefas adicionais.
  
-Como Usar
+### Como Usar
 Preparação: Certifique-se de que o dispositivo Android e o computador estejam na mesma rede Wi-Fi.
 Execução do Script: Execute o script em um terminal ou prompt de comando, seguindo a sintaxe adequada.
 
-Requisitos
+### Requisitos
 O dispositivo Android deve ter o modo de depuração USB ativado.
 O computador deve ter o ADB instalado e configurado corretamente.
 
