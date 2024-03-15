@@ -5,7 +5,7 @@ echo Comando do adb para Conectar via Rede Wi-fi o Celular para Depuracao no VSc
 echo.
 echo  **********************************
 echo  **                              ** 
-echo  **  # CONECTE O CELULA NO USB,  **
+echo  **  CONECTE O CELULA NO USB     **
 echo  **  ATIVE A DEPURACAO NO MODO   **
 echo  **  DESENVOLVEDO NO ANDROID.    ** ### Comentario dos Comandos ###
 echo  **                              ** 
@@ -14,15 +14,14 @@ echo  **  2  adb devices              ** # lista de dispositivos conectados.
 echo  **  3  adb disconnect           ** # Desconectar dispositivos conectados.
 echo  **  4  adb tcpip 5555           ** # Abri porta para uma Conexao.
 echo  **  5  adb connect IP:5555      ** # No [IP] Coloque o do seu Celular ex:192.168.0.195:5555.
-echo  **     exit                     ** # Digite exit para fechar o Script.
+echo  **  6  exit                     ** # Digite "exit" para fechar o Script.
 echo  **                              **
 echo  **********************************
 echo  ********  DEPURADOR ADB  ********* 
 echo  **********************************
-echo  **********************************
 echo.
-echo # MEU IP : 192.168.0.194
-echo # MEU DIRETORIO : C:\Users\anton\AppData\Local\Android\Sdk\platform-tools
+echo # IP NA REDE: [DIGITE SEU ENDEREÇO I]
+echo # DIRETORIO : C:\Users\anton\AppData\Local\Android\Sdk\platform-tools
 
 :pergunta1
 echo.
@@ -55,7 +54,6 @@ goto :pergunta2
 
 :sair
 exit
-
 
 :exitt
 exit
